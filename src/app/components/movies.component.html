@@ -1,52 +1,52 @@
 <div class="row">
 
-    <button class="btn btn-lg btn-info m-3" [class.active]="filterBy==='all'" 
+    <button class="btn btn-lg btn-warning m-3" [class.active]="filterBy==='all'" 
     (click)="filterBy='all'" [ngStyle]="{'margin':'5px'}">Όλες</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='drama'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='drama'" 
     (click)="filterBy='drama'" [ngStyle]="{'margin':'5px'}">Δραματικές</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='action'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='action'" 
     (click)="filterBy='action'" [ngStyle]="{'margin':'5px'}">Περιπέτειες</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='comedy'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='comedy'" 
     (click)="filterBy='comedy'" [ngStyle]="{'margin':'5px'}">Κωμωδίες</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='thriller'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='thriller'" 
     (click)="filterBy='thriller'" [ngStyle]="{'margin':'5px'}">Θρίλερ</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='scifi'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='scifi'" 
     (click)="filterBy='scifi'" [ngStyle]="{'margin':'5px'}">Sci-Fi</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='horror'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='horror'" 
     (click)="filterBy='horror'" [ngStyle]="{'margin':'5px'}">Τρόμου</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='crime'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='crime'" 
     (click)="filterBy='crime'" [ngStyle]="{'margin':'5px'}">Αστυνομικές</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='noir'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='noir'" 
     (click)="filterBy='noir'" [ngStyle]="{'margin':'5px'}">Film Noir</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='romance'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='romance'" 
     (click)="filterBy='romance'" [ngStyle]="{'margin':'5px'}">Αισθηματικές</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='art'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='art'" 
     (click)="filterBy='art'" [ngStyle]="{'margin':'5px'}">Art/Experimental</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='musical'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='musical'" 
     (click)="filterBy='musical'" [ngStyle]="{'margin':'5px'}">Μιούζικαλ</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='war'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='war'" 
     (click)="filterBy='war'" [ngStyle]="{'margin':'5px'}">Πολεμικές</button>
 
-    <button class="btn btn-lg btn-info" [class.active]="filterBy==='western'" 
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='western'" 
     (click)="filterBy='western'" [ngStyle]="{'margin':'5px'}">Γουέστερν</button>
 
 
     <ul id="thumbnailsList">
         <li *ngFor="let movie of (visibleMovies | movieFilter:filterBy)" >
             <a [routerLink] ="['/movie', movie.id]">
-                <img src="{{movie.url}}" class="tn" width="" height="300">
+                <img src="{{movie.url}}" class="tn">
             </a>
         </li>
     </ul>

@@ -8,7 +8,7 @@ import { MoviesService } from './services/movies.service';
 import { MovieFilterPipe } from './components/shared/filter.pipe';
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './components/movies.component';
-import { MovieDetailComponent } from './components/movie-detail.component';
+import { MovieDetailsComponent } from './components/movie-details.component';
 import { HeaderComponent } from './components/header.component';
 import { appRoutes } from '../routes';
 
@@ -17,7 +17,7 @@ import { appRoutes } from '../routes';
     AppComponent,
     MoviesComponent,
     HeaderComponent,
-    MovieDetailComponent,
+    MovieDetailsComponent,
     MovieFilterPipe
   ],
   imports: [

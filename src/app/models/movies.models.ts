@@ -62,7 +62,7 @@ export const movies = [
   { "id":21, "category":"thriller", "description":"Θρίλερ", "title":"North by Northwest", "year":"1959", "director":"Alfred Hitchcock",
     "actors":"Cary Grant, Eva Marie Saint, James Mason", 
     "url":"assets/img/north-by-northwest.jpg" },
-  { "id":22, "category":"thriller", "description":"Νεο-noir μυστηρίου", "title":"Mulholland Drive", "year":"2001", "director":"David Lynch",
+  { "id":22, "category":"thriller", "description":"Νεο-noir θρίλερ μυστηρίου", "title":"Mulholland Drive", "year":"2001", "director":"David Lynch",
     "actors":"Naomi Watts, Laura Elena Harring, Justin Theroux, Ann Miller, Robert Forster", 
     "url":"assets/img/mulholland-drive.jpg" },
   { "id":23, "category":"drama", "description":"Δραματική κομεντί", "title":"The Breakfast Club", "year":"1985", "director":"John Hughes",

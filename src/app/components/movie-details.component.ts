@@ -3,10 +3,10 @@ import { MoviesService } from '../services/movies.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  templateUrl: './movie-detail.component.html',
-  styleUrls: ['./movie-detail.component.css']
+  templateUrl: './movie-details.component.html',
+  styleUrls: ['./movie-details.component.css']
 })
-export class MovieDetailComponent {
+export class MovieDetailsComponent {
   movie:any;
 
   constructor(private moviesService: MoviesService, private route: ActivatedRoute) { }
