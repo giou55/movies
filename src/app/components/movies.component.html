@@ -1,46 +1,46 @@
-<div class="row">
+<div class="row" id="buttons-row">
 
-    <button class="btn btn-lg btn-warning m-3" [class.active]="filterBy==='all'" 
-    (click)="filterBy='all'" [ngStyle]="{'margin':'5px'}">Όλες</button>
+    <button class="btn btn-lg btn-warning" [class.active]="filterBy==='all'" 
+    (click)="filterBy='all'">Όλες</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='drama'" 
-    (click)="filterBy='drama'" [ngStyle]="{'margin':'5px'}">Δραματικές</button>
+    (click)="filterBy='drama'">Δραματικές</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='action'" 
-    (click)="filterBy='action'" [ngStyle]="{'margin':'5px'}">Περιπέτειες</button>
+    (click)="filterBy='action'">Περιπέτειες</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='comedy'" 
-    (click)="filterBy='comedy'" [ngStyle]="{'margin':'5px'}">Κωμωδίες</button>
+    (click)="filterBy='comedy'">Κωμωδίες</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='thriller'" 
-    (click)="filterBy='thriller'" [ngStyle]="{'margin':'5px'}">Θρίλερ</button>
+    (click)="filterBy='thriller'">Θρίλερ</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='scifi'" 
-    (click)="filterBy='scifi'" [ngStyle]="{'margin':'5px'}">Sci-Fi</button>
+    (click)="filterBy='scifi'">Sci-Fi</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='horror'" 
-    (click)="filterBy='horror'" [ngStyle]="{'margin':'5px'}">Τρόμου</button>
+    (click)="filterBy='horror'">Τρόμου</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='crime'" 
-    (click)="filterBy='crime'" [ngStyle]="{'margin':'5px'}">Αστυνομικές</button>
+    (click)="filterBy='crime'">Αστυνομικές</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='noir'" 
-    (click)="filterBy='noir'" [ngStyle]="{'margin':'5px'}">Film Noir</button>
+    (click)="filterBy='noir'">Film Noir</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='romance'" 
-    (click)="filterBy='romance'" [ngStyle]="{'margin':'5px'}">Αισθηματικές</button>
+    (click)="filterBy='romance'">Αισθηματικές</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='art'" 
-    (click)="filterBy='art'" [ngStyle]="{'margin':'5px'}">Art/Experimental</button>
+    (click)="filterBy='art'">Art/Experimental</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='musical'" 
-    (click)="filterBy='musical'" [ngStyle]="{'margin':'5px'}">Μιούζικαλ</button>
+    (click)="filterBy='musical'">Μιούζικαλ</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='war'" 
-    (click)="filterBy='war'" [ngStyle]="{'margin':'5px'}">Πολεμικές</button>
+    (click)="filterBy='war'">Πολεμικές</button>
 
     <button class="btn btn-lg btn-warning" [class.active]="filterBy==='western'" 
-    (click)="filterBy='western'" [ngStyle]="{'margin':'5px'}">Γουέστερν</button>
+    (click)="filterBy='western'">Γουέστερν</button>
 
 
     <ul id="thumbnailsList">
