@@ -18,4 +18,7 @@ li {
   box-shadow:#555 1px 1px 8px 1px;
   cursor: pointer
 }
+.btn-warning.active, .btn-warning.active:hover {
+  background-color: #c57505;
+}
 
