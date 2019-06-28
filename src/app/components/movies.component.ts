@@ -2,7 +2,6 @@ import { Component, OnChanges } from '@angular/core';
 import { MoviesService } from '../services/movies.service';
 
 @Component({
-  selector: 'app-gallery',
   templateUrl: './movies.component.html',
   styleUrls: ['./movies.component.css']
 })
