@@ -1,3 +1,18 @@
+.row {
+    margin-top: 78px;
+}
+
+button {
+    background-color: #343029;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 8px;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
 @media screen and (min-width: 480px) {
     img {
         width: 100%;

@@ -1,12 +1,13 @@
 <div class="row">
-
-  <button (click)="backClicked()">BACK</button>
-
+  <div class="col-md-1">
+      <button (click)="backClicked()">Πίσω</button>
+  </div>
+  
   <div class="col-md-8">
     <img src="{{movie.url}}">
   </div>
 
-  <div class="col-md-4">
+  <div class="col-md-3">
     <h2>{{movie.title}}</h2>
     <h4>{{movie.description}}</h4>
     <h4>Έτος παραγωγής: {{movie.year}}</h4>

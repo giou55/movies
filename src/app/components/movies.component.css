@@ -1,3 +1,7 @@
+#buttons-row {
+  margin-top: 78px;
+}
+
 #buttons-row button {
   margin:4px;
   padding:8px;
@@ -19,6 +23,13 @@ li {
   cursor: pointer
 }
 .btn-warning.active, .btn-warning.active:hover {
-  background-color: #c57505;
+  background-color:#f2bb45;
+  color: #000;
+  border: none;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #343029;
+  border: none;
 }
 
