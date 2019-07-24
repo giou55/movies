@@ -9,8 +9,12 @@ button {
     padding: 8px;
     border: none;
     color: #fff;
-    margin-top: 20px;
+    margin: 20px auto;
     border-radius: 10px;
+}
+
+#details {
+    margin-bottom: 30px;
 }
 
 @media screen and (min-width: 480px) {
