@@ -6,6 +6,10 @@
   margin:4px;
   padding:8px;
 }
+ .menu{
+   border-bottom: 1px dashed #333;
+ }
+
 ul { 
   padding:0; 
   width:100%; 
@@ -22,14 +26,14 @@ li {
   box-shadow:#555 1px 1px 8px 1px;
   cursor: pointer
 }
-.btn-warning.active, .btn-warning.active:hover {
-  background-color:#f2bb45;
-  color: #000;
+button{
+  color: #333;
+  background-color: #efefef;
   border: none;
 }
-.btn-warning {
-  color: #fff;
-  background-color: #343029;
-  border: none;
+button.active{
+  color: #333;
+  background-color: #efefef;
+  border: 1px solid #333;
 }
 
