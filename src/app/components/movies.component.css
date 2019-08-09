@@ -1,5 +1,7 @@
 #buttons-row {
-  margin-top: 78px;
+  margin-top: 70px;
+  margin-right: 0;
+  margin-left: 0;
 }
 .menu{
   border-bottom: 1px dashed #333;
@@ -81,6 +83,17 @@ img {
   img {
     margin: 1%;
     width: 30%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  button{
+    margin:8px;
+    padding:7px;
+  }
+  img {
+    margin: 1%;
+    width: 22%;
   }
 }
 
