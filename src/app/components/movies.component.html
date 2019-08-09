@@ -46,12 +46,15 @@
 
     </div>
 
+</div>
 
-    <ul id="thumbnailsList">
-        <li *ngFor="let movie of visibleMovies | movieFilter:filterBy" >
+
+<div class="row movies">
+    
+        <div *ngFor="let movie of visibleMovies | movieFilter:filterBy" class="imgDiv" >
             <a [routerLink] ="['/movie', movie.id]">
                 <img src="{{movie.url}}" class="tn">
             </a>
-        </li>
-    </ul>
+        </div>
+
 </div>

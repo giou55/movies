@@ -1,15 +1,9 @@
 #buttons-row {
   margin-top: 78px;
 }
-
-#buttons-row button {
-  margin:4px;
-  padding:8px;
-}
- .menu{
-   border-bottom: 1px dashed #333;
+.menu{
+  border-bottom: 1px dashed #333;
  }
-
 ul { 
   padding:0; 
   width:100%; 
@@ -18,22 +12,76 @@ ul {
 li { 
   display:inline;
 }
-.tn {
-  margin:6px 6px;
-  height:auto;
-  width:350px;
-  border: 4px solid #eee;
-  box-shadow:#555 1px 1px 8px 1px;
-  cursor: pointer
-}
 button{
+  margin:2px;
+  padding:4px;
   color: #333;
   background-color: #efefef;
   border: none;
 }
 button.active{
-  color: #333;
-  background-color: #efefef;
-  border: 1px solid #333;
+  color: #efefef;
+  background-color: #333;
+  box-shadow: none;
 }
+button:hover,button:focus {
+  color: #efefef;
+  background-color: #333;
+  outline:0 !important;;
+  box-shadow: none !important;
+}
+.movies{
+  margin-top: 2%;
+}
+img {
+  width: 92%;
+  margin: 4%;
+  height:auto;
+  border: 4px solid #eee;
+  box-shadow:#555 1px 1px 8px 1px;
+  cursor: pointer;
+}
+.imgDiv{
+  display: block;
+}
+
+@media screen and (min-width: 480px) {
+  .imgDiv{
+    display: inline;
+  }
+  button{
+    margin:4px;
+    padding:5px;
+  }
+  img {
+      width: 46%;
+      margin: 1%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .imgDiv{
+    display: inline;
+  }
+  button{
+    margin:5px;
+    padding:6px;
+  }
+  img {
+    margin: 1%;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  button{
+    margin:6px;
+    padding:7px;
+  }
+  img {
+    margin: 1%;
+    width: 30%;
+  }
+}
+
 
